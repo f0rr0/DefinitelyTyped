@@ -14,6 +14,7 @@ export interface Options {
     showSearchBox?: boolean;
     addonPanelInRight?: boolean;
     sortStoriesByKind?: boolean;
+    sidebarAnimations?: bollean;
     hierarchySeparator?: RegExp | string;
     hierarchyRootSeparator?: boolean;
     selectedAddonPanel?: string;
