@@ -4,12 +4,15 @@ setOptions({
   name: 'My Storybook',
   url: 'https://example.com',
   goFullScreen: false,
-  showLeftPanel: false,
-  showDownPanel: false,
+  showStoriesPanel: false,
+  showAddonPanel: false,
   showSearchBox: false,
-  downPanelInRight: false,
+  addonPanelInRight: false,
   sortStoriesByKind: false,
+  sidebarAnimations: false,
   hierarchySeparator: /\//,
+  hierarchyRootSeparator: /\|/,
+  selectedAddonPanel: 'storybook/notes/panel'
 });
 
 setOptions({
