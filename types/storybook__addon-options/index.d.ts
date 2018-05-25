@@ -9,14 +9,13 @@ export interface Options {
     url?: string;
     goFullScreen?: boolean;
     showStoriesPanel?: boolean;
-    addonPanelInRight?: boolean;
-    showStoriesPanel?: boolean;
+    showAddonPanel?: boolean;
     showSearchBox?: boolean;
     addonPanelInRight?: boolean;
     sortStoriesByKind?: boolean;
-    sidebarAnimations?: bollean;
     hierarchySeparator?: RegExp | string;
-    hierarchyRootSeparator?: boolean;
+    hierarchyRootSeparator?: RegExp | string;
+    sidebarAnimations?: boolean;
     selectedAddonPanel?: string;
 }
 
