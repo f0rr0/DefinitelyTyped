@@ -1,4 +1,4 @@
-// Type definitions for @storybook/addon-options 3.2
+// Type definitions for @storybook/addon-options 3.4.5
 // Project: https://github.com/storybooks/storybook
 // Definitions by: Joscha Feth <https://github.com/joscha>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
@@ -8,12 +8,15 @@ export interface Options {
     name?: string;
     url?: string;
     goFullScreen?: boolean;
-    showLeftPanel?: boolean;
-    showDownPanel?: boolean;
+    showStoriesPanel?: boolean;
+    addonPanelInRight?: boolean;
+    showStoriesPanel?: boolean;
     showSearchBox?: boolean;
-    downPanelInRight?: boolean;
+    addonPanelInRight?: boolean;
     sortStoriesByKind?: boolean;
     hierarchySeparator?: RegExp | string;
+    hierarchyRootSeparator?: boolean;
+    selectedAddonPanel?: string;
 }
 
 export function setOptions(options: Options): void;
